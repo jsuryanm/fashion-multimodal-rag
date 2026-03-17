@@ -6,6 +6,7 @@ langchain-huggingface
 faiss-cpu
 torch
 transformers
+datasets
 sentence-transformers
 Pillow
 gradio
