@@ -3,7 +3,7 @@
 A multimodal RAG (Retrieval-Augmented Generation) app that analyses fashion images and returns a detailed style breakdown with matching catalogue items. Upload any clothing photo and get garment descriptions, style categorisation, and shoppable product links — powered by CLIP embeddings, FAISS vector search, and a Groq vision LLM.
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
-![LangChain](https://img.shields.io/badge/LangChain-0.3%2B-green)
+![LangChain](https://img.shields.io/badge/LangChain-1.0%2B-green)
 ![Groq](https://img.shields.io/badge/LLM-Groq-orange)
 ![FAISS](https://img.shields.io/badge/VectorStore-FAISS-red)
 ![Gradio](https://img.shields.io/badge/UI-Gradio-yellow)
