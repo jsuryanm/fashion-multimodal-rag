@@ -190,7 +190,7 @@ All settings live in `.env`. Defaults work out of the box — only `GROQ_API_KEY
 | Variable | Default | Description |
 |---|---|---|
 | `GROQ_API_KEY` | — | **Required.** Get free at console.groq.com |
-| `GROQ_MODEL_ID` | `llama-3.2-11b-vision-preview` | Must be a vision-capable Groq model |
+| `GROQ_MODEL_ID` | `Llama 4 Scout 17B 16E` | Must be a vision-capable Groq model |
 | `GROQ_TEMPERATURE` | `0.2` | Lower = more deterministic output |
 | `GROQ_MAX_TOKENS` | `2048` | Max response length |
 | `EMBEDDING_MODEL_NAME` | `clip-ViT-B-32` | CLIP variant (512-dim, fast) |
