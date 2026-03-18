@@ -134,7 +134,7 @@ def create_ui(chain: FashionRAGChain) -> gr.Blocks:
             )
 
         # ── How it works section ───────────────────────────────────────────────
-        with gr.Accordion("ℹ️ How this works", open=False):
+        with gr.Accordion(" How this works", open=False):
             gr.Markdown(
                 """
                 ### Pipeline Overview
