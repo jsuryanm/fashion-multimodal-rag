@@ -1,10 +1,3 @@
-"""
-utils/image_utils.py
-=====================
-Pure utility functions for image loading and encoding.
-No side effects — easy to unit test.
-"""
-
 import base64
 import logging
 from io import BytesIO
