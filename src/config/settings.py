@@ -17,9 +17,7 @@ class Settings(BaseSettings):
     embeddings_model_name: str = Field(default="clip-ViT-B-32",
                                   description="SentenceTransformers model name for image embeddings")
     
-    faiss_index_path: str = Field(decimal_places="data/faiss_index",
-                                  description="Local directory to persist the FAISS index")
-
+    faiss_index_path: str = Field(default="data/faiss_index",description="Local directory to persist the FAISS index")
     images_dir: str = Field(default="data")
     
     top_k_results: int = Field(default=5,gt=0)

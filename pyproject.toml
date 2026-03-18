@@ -21,8 +21,19 @@ dependencies = [
     "requests>=2.32.5",
     "sentence-transformers>=5.3.0",
     "torch>=2.10.0",
+    "torchvision>=0.25.0",
     "transformers>=5.3.0",
 ]
+
+[tool.uv.sources]
+# Pins these packages to the custom index defined below
+torch = { index = "pytorch-cu128" }
+torchvision = { index = "pytorch-cu128" }
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true  # Prevents other packages from accidentally using this index
 
 [tool.setuptools.packages.find]
 where = ["."]

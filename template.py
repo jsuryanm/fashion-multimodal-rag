@@ -17,10 +17,12 @@ list_of_files = [
     f"{project_name}/models/vector_store.py",
     f"{project_name}/pipeline/__init__.py",
     f"{project_name}/pipeline/rag_chain.py",
+    f"{project_name}/data_loader/__init__.py",
+    f"{project_name}/data_loader/local_dataset_adapter.py",
     f"{project_name}/utils/__init__.py",
     f"{project_name}/utils/image_utils.py",
     f"{project_name}/utils/response_formatter.py",
-    "data/"
+    "data/faiss_index/__init__.py",
     "app.py",
     "ingest.py",
     ".env",
